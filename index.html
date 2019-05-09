@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Калькулятор</title>
+        <link rel="stylesheet" href="css/jquery-ui.css"> 
+        <link rel="stylesheet" href="css/styles.css">      
+    </head>
+    <body>
+ 
+        <div class="kalk5">
+
+            <section class="square section_width">
+                <p><label for="amount">Площадь:</label>
+                <span class="right"><input type="number" id="amount" min="1" max="150" step="1">м<sup>2</sup></span></p>
+                <div id="slider-range-min"></div>
+            </section>
+
+            <section class="apartment section_width">
+                <p>Тип квартиры:</p>
+                <div class="items_apartment">              
+                    <div class="item_apartment">
+                        <input name="radio_apartment" class="radio_apartment radio" type="radio" value="secondary" checked>
+                        <div class="div_apartment" name="secondary">Вторичка</div>
+                    </div>
+                    <div class="item_apartment">
+                        <input name="radio_apartment" class="radio_apartment radio" type="radio" value="new">
+                        <div class="div_apartment" name="new">Новостройка</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="repairs section_width">
+                <p>Вид ремонта:</p>
+                <div class="items_repairs">
+                    <div class="item_repairs">
+                        <input name="radio_repairs" type="radio" value="standart" class="radio_repairs radio"  class="radio"checked>
+                        <div class="div_repairs" name="standart">Стандарт</div>
+                    </div>
+                    <div class="item_repairs">
+                        <input name="radio_repairs" type="radio" value="komplexsniy" class="radio_repairs radio">
+                        <div class="div_repairs" name="komplexsniy">Евро</div>
+                    </div>
+                    <div class="item_repairs">
+                        <input name="radio_repairs" type="radio" value="evro" class="radio_repairs radio">
+                        <div class="div_repairs" name="evro">Элит</div>
+                    </div>                              
+                </div>
+            </section>
+
+            <section class="cost section_width">
+                <p>Примерная стоимость*</p>
+                <div class="res"><b>104 400  &#8381</b></div>
+                <button class="right">Заказать</button>    
+                <p class="small">*Примерная стоимость работ <strong>без учета материалов</strong>!</p>       
+            </section>
+
+        </div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,317 @@
+/*------------------------------------CSS-СБРОС-------------------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------------СТИЛИ-------------------------------------*/
+
+.kalk5 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3F3F3F;
+  color: #fff;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.kalk5 .section_width {
+  box-sizing: border-box;
+  width: 49%;
+  padding: 40px;
+}
+
+.kalk5 .radio {
+  display: none;
+}
+
+.kalk5 .right {
+  float: right;
+}
+
+.kalk5 .square #slider-range-min {
+  margin-top: 40px;
+}
+
+.kalk5 .square input {
+  font-size: 23px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 7px;
+  font-weight: bold;
+  color: #3F3F3F;
+  border-radius: 5px;
+}
+
+.kalk5 .square .right {
+  margin-top: -5px;
+}
+
+.kalk5 .repairs p {
+  margin-bottom: 20px;
+}
+
+.kalk5 .repairs .items_repairs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  justify-content: left;
+}
+
+.kalk5 .repairs .item_repairs {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.kalk5 .repairs .div_repairs {
+  min-width: 100px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  background: #F0EFEF;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3F3F3F;
+}
+
+.kalk5 .repairs .div_repairs:hover {
+  border: 1px solid #f88a19;
+}
+
+.kalk5 .repairs .radio_checked {
+  background-color: #f88a19;
+  color: #fff;
+  border: 1px solid #f88a19;
+}
+
+.kalk5 .apartment p {
+  margin-bottom: 20px;
+}
+
+.kalk5 .apartment .items_apartment {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  justify-content: left;
+}
+
+.kalk5 .apartment .item_apartment {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.kalk5 .apartment .div_apartment {
+  width: 100px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  background: #F0EFEF;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3F3F3F;
+}
+
+.kalk5 .apartment .div_apartment:hover {
+  border: 1px solid #f88a19;
+}
+
+.kalk5 .apartment .radio_checked {
+  background-color: #f88a19;
+  color: #fff;
+  border: 1px solid #f88a19;
+}
+
+.kalk5 .cost p {
+  margin-bottom: 40px;
+}
+
+.kalk5 .cost .small {
+  margin-top: 45px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.kalk5 .cost .res {
+  display: inline-block;
+  font-size: 35px;
+}
+
+.kalk5 .cost button {
+  margin-top: -6px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: #fff;
+  background-color: #f88a19;
+  border: 1px solid #f88a19;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .kalk5 {
+    display: block;
+  }
+
+  .kalk5 .section_width {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .kalk5 .right {
+    float: none;
+    display: inline-block;
+    margin-top: 20px !important;
+  }
+}
